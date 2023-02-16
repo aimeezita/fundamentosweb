@@ -1,0 +1,191 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+:root {
+    --background-color: #07405f;
+    --text-color: #ECF8FF;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    width: 80vw;
+    padding: 2vh 0vh;
+    height: 2vh;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:visited {
+    color: var(--text-color);
+}
+
+main {
+
+    width: 80vw;
+    height: 100%;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.row {
+    display: flex;
+    gap: 50px;
+
+
+}
+
+.w60vw{
+    width: 60vw;
+}
+
+.w50vw{
+    width: 50vw;
+
+}
+.column {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.paragrafo{
+    margin: 1vh;
+}
+
+.mt5{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cita {
+    text-align: center;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+ 
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    
+}
+
+span{
+    margin: 1vh;
+}
+
+.title {
+    font-size: 36px;
+}
+
+
+.paragrafo {
+    display: block;
+}
+
+.foto {
+    width: 20vw;
+    justify-content: center;
+
+}
+
+#fotoAimee {
+    display: flex;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+
+/* Contato */
+
+label{
+    width: 3vw;
+    }
+
+.mb1vh{
+margin-bottom: 1vh;
+}
+
+.dflex{
+    display: flex;
+    
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+
+
+
+button{
+    background-color:var(--text-color);
+    border-radius: 5px;
+    border:0px;
+    height: 4vh;
+    width: 3vw;
+}
+
+.gap10vw{
+    gap:10vw
+}
+
+.p5vh{
+    padding: 5vh;
+}
